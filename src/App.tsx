@@ -23,3 +23,10 @@ export default class App extends Component
     proxy.removeAllEventListener(this);
   }
 }
+
+
+//function reg() {
+//  proxy.addEventListener("login", () => { console.log("Jön a login csomag"); });
+//  proxy.sendPacket({  type: "register",  email: "test", password: "test", displayName: "test", staySignedIn: true  });  
+//
+//}
